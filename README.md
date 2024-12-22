@@ -16,7 +16,7 @@ gist_size = 120 MB
 $P_{happy} = \frac{k!}{(k-n)!} \cdot \frac{1}{k^n} = k \cdot (k - 1) \cdot ... \cdot (k-n + 1) \cdot \frac{1}{k^n} =1 \cdot (1 - \frac{1}{k}) \cdot (1 - \frac{2}{k}) \cdot . \cdot (1 - \frac{n-1}{k})$
 Прологарифмируем
 $\ln⁡(P_{happy})=\ln⁡(1)+\ln⁡(1−\frac{1}{k})+\ln⁡(1−\frac{2}{k})+ ... +\ln⁡(1−\frac{n-1}{k})$ $\ln⁡(P_{happy})=\sum_{i=1}^{n - 1}{\ln⁡(1−\frac{i}{k})}$
-При малых x: $\ln⁡(1−x)≈−x$
+При малых x верна оценка : $\ln⁡(1−x)≈−x$
 
 Тогда:
 $\ln⁡(P_{happy})≈−\sum_{i=1}^{n - 1}{\frac{i}{k}}$ 
